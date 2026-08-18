@@ -1,0 +1,19 @@
+{
+  "name": "memecoin-copy-sim-bot",
+  "version": "1.0.0",
+  "description": "Bot privado de Telegram: simula copy trading de una wallet de Solana",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
